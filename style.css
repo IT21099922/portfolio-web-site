@@ -1,0 +1,431 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    color: #303536;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p, li{
+    font-size: 23px;
+}
+a{
+    text-decoration: none;
+}
+
+/* My existing styles */
+
+header {
+    background-color: #786DE3;
+    color: white;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;            /* Align items vertically in the center */
+    justify-content: space-evenly;
+    padding: 8px 0;                /* Add padding to create space around the items */
+}
+
+div.nav_itemv {
+    margin: 0 0;
+}
+
+div.nav_item a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+div.nav_item a:hover {
+    color: #F6B399;
+}
+
+
+/* Landing Section */
+
+.sec1{
+    height: 100%;
+    background-color: #ffe9e0;
+}
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.Ldes{
+    /* border: 0.2px #303536 solid; */
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.name{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Limg{
+    /* border: 0.2px #303536 solid; */
+    padding: 1rem;
+    width: 40%;
+    height: 25rem;
+    text-align: right;
+}
+
+#position{
+    font-weight: lighter;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 0;
+}
+#Lpara{
+    text-align: right;
+}
+
+/* Email btn */
+
+.btnMail {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: transparent;
+    border: 1px #786DE3 solid ;
+    color: #786DE3;
+    stroke: #786DE3;
+
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-decoration: none;
+    }
+
+    .btnMail:hover {
+    background: #F6B399;
+    color: #786DE3 ;
+    text-decoration: none;
+    }
+
+    .btnGit > svg{
+        color: #786DE3;
+    }
+
+    .btnMail > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+    }
+
+    .btnMail:hover svg {
+    transform: translateX(5px);
+    }
+
+    .btnMail:active {
+    transform: scale(0.95);
+    }
+
+/* Email btn */
+
+
+.linkBox{
+    width: 100%;
+    /* border: 0.2px #303536 solid; */
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.links{
+    /* border: 0.2px #303536 solid; */
+    margin-left: 1rem;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Button start */
+
+a{
+    text-decoration: none;
+}
+.cv {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #786DE3;
+    color: white;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    }
+
+    .cv:hover {
+    background: #F6B399;
+    color: #786DE3 ;
+    text-decoration: none;
+    }
+
+    .cv > svg {
+    width: 34px;
+    margin-left: 8px;
+    transition: transform .3s ease-in-out;
+    }
+
+    .cv:hover svg {
+    transform: translateX(7px);
+    }
+
+    .cv:active {
+    transform: scale(0.95);
+    }
+
+/* Button End */
+
+
+
+/* About section */
+
+.aboutSec{
+    min-height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.about{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Ades{
+    width: 50%;
+    font-size: larger;
+    line-height: 1.8;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.Aimg{
+    width: 50%;
+}
+
+.AMp{
+    font-size: 23px;
+}
+.AMh1{
+    font-size: 50px;
+}
+
+/* Projects section */
+
+.projectsSec{
+    background-color: #ffe9e0;
+}
+.Phead{
+    
+    width:100%;
+    padding: 20px 0;
+    background-color: #786DE3;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Php{
+    margin: 10px;
+}
+.Pdes{
+    font-weight: lighter;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+/* UIUX */
+
+.projects ,.PlistAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+}
+.PlistAll{
+    padding: 5rem 0;
+}
+
+.uiCard{
+    margin: 15px 0;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 0.2px #30353668 solid;
+    transition: 0.2s;
+}
+.uiCard:hover{
+    border: none;
+    background-color: #786DE3;
+    color: #ffffff;
+
+}
+
+.uiCardData{
+    width: 60%;
+    padding-left: 15px;
+}
+.uiCardDes{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.uiCardImg{
+    min-width: 40%;
+    height:fit-content;
+}
+
+/* web */
+
+.Rp{
+    margin : 0;
+}
+
+.webCard{
+    width: 70%;
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    border: 0.3px #30353668 solid;
+    transition: 0.2s;
+}
+.webCard:hover{
+    background-color: #ff9166;
+    border: none;
+
+}
+
+.webTitle{
+    padding-left: 15px;
+}
+.webDes{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 15px;
+}
+
+/* Skills */
+
+.skiilSec{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.SmainTopic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Tcolumns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Dskills{
+    padding: 0 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.Pskills{
+    padding: 0 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.Dskills:hover , .Pskills:hover{
+    background-color: #786DE3;
+    color: #ffffff;
+}
+
+
+
+
+/* contact */
+
+.contact{
+    background-color: #ff9166;
+}
+.Concard, .contactData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.contactData{
+    width: 60%;
+    padding: 20px 35px;
+}
+.Rme, .mail{
+    margin: 0;
+}
+
+/* footer */
+
+footer{
+    background-color: #786DE3;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
